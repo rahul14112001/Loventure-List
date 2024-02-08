@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+.main{
+    width: 50%;
+    height: 100vh;
+    background-image: url("../image/back-img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 400px;
+    min-height: 500px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#item{
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    display: block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 5px red;
+    border-radius: 5px;
+}
+
+#to-do-box{
+    width: 100%;
+    list-style: none;
+    margin-top: 10px;
+}
+
+#to-do-box li {
+    position: relative;
+    padding: 10px;
+    padding-right: 30px;
+    color:white;
+    background-color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: justify;
+    margin-top: 10px;
+    user-select: none;
+    cursor: grab;
+
+    
+}
+#to-do-box li img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    
+    
+}
+
+
+
+
+.rightSide{
+    margin-left: 50%;
+    margin-top: -50%;
+    margin-bottom: 0;
+    width: 50%;
+    height: 100vh;
+    background-image: url("../image/back-img.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100% 100%;
+
+}
+
+.done {
+    text-decoration: line-through;
+    color: black;
+    background-color: #95a5a6 !important;
+}
